@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>GymZone Fitness</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- Font Awesome Icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Loading Animation -->
+  <div id="loader">
+    <div class="spinner"></div>
+    <p>Loading GymZone...</p>
+  </div>
+
+  <!-- Navbar -->
+  <header>
+    <h1 class="logo">Gym<span>Zone</span></h1>
+    <nav>
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#pricing">Pricing</a></li>
+        <li><a href="#register">Register</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+
+    <!-- Country & Language Selector -->
+    <div class="selectors">
+      <select>
+        <option>EN</option>
+        <option>UR</option>
+        <option>HI</option>
+      </select>
+      <select>
+        <option>Pakistan</option>
+        <option>India</option>
+        <option>USA</option>
+        <option>Canada</option>
+        <option>UK</option>
+      </select>
+    </div>
+
+    <!-- Dark Mode Button -->
+    <button id="theme-toggle" class="toggle-btn">🌙</button>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="overlay"></div>
+    <div class="hero-content">
+      <h2>Transform Your <span>Body</span>, Transform Your <span>Life</span></h2>
+      <p>Join GymZone today and achieve your dream fitness goals with expert trainers and modern equipment.</p>
+      <button class="cta-btn">Join Now</button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about fade-in">
+    <div class="about-text">
+      <h3>About Our Gym</h3>
+      <p>
+        At <strong>GymZone</strong>, we are committed to helping you achieve your fitness dreams!
+        With <strong>professional trainers</strong>, <strong>state-of-the-art equipment</strong>, and a
+        <strong>supportive environment</strong>, we make sure you stay motivated and confident throughout
+        your fitness journey.<br><br>
+        Whether you want to <strong>lose weight</strong>, <strong>build muscle</strong>, or
+        <strong>increase stamina</strong>, we have a plan tailored for you!
+      </p>
+      <button class="cta-btn">Learn More</button>
+    </div>
+    <div class="about-image">
+      <img src="https://images.pexels.com/photos/841130/pexels-photo-841130.jpeg" alt="Gym Training">
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="services fade-in">
+    <h3>Our Services</h3>
+    <div class="service-cards">
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1552242/pexels-photo-1552242.jpeg" alt="Personal Training">
+        <h4>Personal Training</h4>
+        <p>1-on-1 sessions with certified professionals to guide you step-by-step.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/3757375/pexels-photo-3757375.jpeg" alt="Cardio Classes">
+        <h4>Cardio Classes</h4>
+        <p>High-energy group classes to keep your heart strong and active.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/1640777/pexels-photo-1640777.jpeg" alt="Nutrition Plans">
+        <h4>Nutrition Plans</h4>
+        <p>Custom diet plans designed for your fitness goals.</p>
+      </div>
+      <div class="card">
+        <img src="https://images.pexels.com/photos/949129/pexels-photo-949129.jpeg" alt="Health Checkups">
+        <h4>Health Checkups</h4>
+        <p>Regular assessments to track your progress and health.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pricing Section -->
+  <section id="pricing" class="pricing fade-in">
+    <h3 class="pricing-title">Our Pricing Plans</h3>
+    <div class="pricing-cards">
+      <div class="price-card">
+        <h4>Normal Plan</h4>
+        <p class="price">$29 / Month</p>
+        <ul>
+          <li>Access to Gym Equipment</li>
+          <li>2 Group Classes / Week</li>
+          <li>Basic Diet Plan</li>
+        </ul>
+        <button class="cta-btn">Choose Plan</button>
+      </div>
+      <div class="price-card special">
+        <h4>Special Plan</h4>
+        <p class="price">$49 / Month</p>
+        <ul>
+          <li>Personal Trainer Sessions</li>
+          <li>Unlimited Classes</li>
+          <li>Premium Diet Plan</li>
+          <li>Monthly Health Checkup</li>
+        </ul>
+        <button class="cta-btn">Choose Plan</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Registration Section -->
+  <section id="register" class="register fade-in">
+    <div class="register-image">
+      <img src="https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg" alt="Join Gym">
+    </div>
+    <div class="register-form">
+      <h3>Register Now</h3>
+      <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="email" placeholder="Email Address" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <button type="submit" class="cta-btn">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact fade-in">
+    <div class="contact-overlay"></div>
+    <div class="contact-content">
+      <h3>Contact Us</h3>
+      <p>Email: <strong>yousaf.khan.67299@gmail.com</strong> | Phone: <strong>03131703327</strong></p>
+      <div class="social-icons">
+        <a href="https://facebook.com/" target="_blank"><i class="fab fa-facebook"></i></a>
+        <a href="https://instagram.com/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/" target="_blank"><i class="fab fa-linkedin"></i></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GymZone. All Rights Reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
